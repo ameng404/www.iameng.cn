@@ -1,11 +1,12 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import footer from './footer';
 
 const config: Config = {
-  title: 'Ameng Space',
+  title: 'Hello, I am Ameng!',
   tagline: '科技改变世界，技术成就未来！',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // Set the production url of your site here
   url: 'https://iameng.cn',
@@ -15,8 +16,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ameng404', // Usually your GitHub org/user name.
+  projectName: 'www.iameng.cn', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -25,8 +26,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -38,14 +39,14 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            '/docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            '/blog',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -61,18 +62,19 @@ const config: Config = {
       title: 'Ameng',
       logo: {
         alt: 'ameng logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: '文档',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: '博客', position: 'left'},
+        {to: '/about', label: '关于', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/ameng404',
           label: 'GitHub',
           position: 'right',
         },
@@ -82,46 +84,70 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '社交媒体',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: '知乎',
+              href: 'https://www.zhihu.com/people/yin-meng-51-78',
+            },
+            {
+              label: '掘金',
+              href: 'https://juejin.cn/user/2752832847498935',
+            },
+            {
+              label: 'CSDN',
+              href: 'https://blog.csdn.net/qq_35858704',
+            },
+            {
+              label: '博客园',
+              href: 'https://www.cnblogs.com/ameng666/',
+            },
+            {
+              label: '哔哩哔哩',
+              href: 'https://space.bilibili.com/23202023',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '友情链接',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: '阮一峰',
+              href: 'http://www.ruanyifeng.com/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: '张鑫旭',
+              href: 'https://www.zhangxinxu.com/',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: '阿西河',
+              href: 'https://www.axihe.com/',
+            },
+            {
+              label: '峰华',
+              href: 'https://zxuqian.cn/',
+            },
+            {
+              label: '大漠',
+              href: 'https://www.w3cplus.com/',
             },
           ],
         },
         {
-          title: 'More',
+          title: '更多',
           items: [
             {
-              label: 'Blog',
+              label: '博客',
               to: '/blog',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/ameng404',
             },
           ],
         },
       ],
-      copyright: `Copyright © 2018 - ${new Date().getFullYear()}, 阿猛的日常, Inc. Built with Docusaurus.`,
+      copyright: footer,
     },
     prism: {
       theme: prismThemes.github,

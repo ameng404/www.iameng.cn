@@ -8,34 +8,31 @@ type FeatureItem = {
   description: JSX.Element;
 };
 
-const FeatureList: FeatureItem[] = [
+const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: '成长',
+    Svg: require('@site/static/img/leap.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        共同学习与你共同成长。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: '探索',
+    Svg: require('@site/static/img/lookup.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        发布具有价值的新闻咨询。
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '启迪',
+    Svg: require('@site/static/img/reflection.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        期望我的文章能够帮助到你。
       </>
     ),
   },
