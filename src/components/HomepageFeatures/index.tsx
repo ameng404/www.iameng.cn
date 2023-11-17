@@ -14,7 +14,7 @@ const FeatureList = [
     Svg: require('@site/static/img/leap.svg').default,
     description: (
       <>
-        共同学习与你共同成长。
+        共同学习与你共同成长！
       </>
     ),
   },
@@ -23,7 +23,7 @@ const FeatureList = [
     Svg: require('@site/static/img/lookup.svg').default,
     description: (
       <>
-        发布具有价值的新闻咨询。
+        发布具有价值的新闻咨询！
       </>
     ),
   },
@@ -32,7 +32,7 @@ const FeatureList = [
     Svg: require('@site/static/img/reflection.svg').default,
     description: (
       <>
-        期望我的文章能够帮助到你。
+        期望我的文章能够帮助到你！
       </>
     ),
   },
