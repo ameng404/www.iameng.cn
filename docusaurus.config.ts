@@ -39,15 +39,15 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            '/docs',
-        },
+          'https://iameng.cn/docs/intro',
+      },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            '/blog',
-        },
+          'https://iameng.cn/blog',
+      },
         theme: {
           customCss: './src/css/custom.css',
         },
