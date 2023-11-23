@@ -24,10 +24,12 @@ jobs:
         run: yarn && yarn build
 
       - name: Upload COS
-        uses: zkqiang/tencent-cos-action@v0.1.0
+        uses: TencentCloud/cos-action@v1
         with:
-          args: delete -r -f / && upload -r ./build/ /
           secret_id: ${{ secrets.SECRET_ID }}
           secret_key: ${{ secrets.SECRET_KEY }}
-          bucket: ${{ secrets.BUCKET }}
-          region: ap-shanghai
+          cos_bucket: ${{ secrets.BUCKET }}
+          cos_region: ap-shanghai
+          local_path: build
+          remote_path: /
+          clean: true
