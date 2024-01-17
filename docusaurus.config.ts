@@ -61,7 +61,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Ameng',
+      title: '我是阿猛',
       logo: {
         alt: 'ameng logo',
         src: 'img/logo.png',
