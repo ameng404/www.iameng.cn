@@ -15,7 +15,7 @@ jobs:
       - name: install Node.js
         uses: actions/setup-node@v2.5.0
         with:
-          node-version: "18.X"
+          node-version: "20.X"
       - name: install dependencies
         run: yarn
       - name: build app
