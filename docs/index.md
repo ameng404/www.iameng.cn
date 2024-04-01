@@ -34,5 +34,4 @@ features:
   - title: Providing multiple custom capabilities
     details: Through its extension mechanism, you can easily extend theme UI and build process.
     icon: 🔥
-  footer:
 ---
