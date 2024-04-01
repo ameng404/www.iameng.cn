@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 博客
-      link: /guide/
+      link: /blog/
     - theme: alt
       text: 摄影
       link: https://github.com/web-infra-dev/rspress
