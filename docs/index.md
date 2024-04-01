@@ -3,13 +3,13 @@ pageType: home
 
 hero:
   name: 阿猛的日常
-  text: Rspack-based Static Site Generator
+  text: 科技改变世界，技术成就未来！
   tagline: Rspress tagline
   actions:
     - theme: brand
       text: 博客
       link: /blog/
-    - theme: alt
+    - theme: brand
       text: 摄影
       link: https://github.com/web-infra-dev/rspress
   image:
