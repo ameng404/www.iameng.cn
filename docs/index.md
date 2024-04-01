@@ -3,8 +3,8 @@ pageType: home
 
 hero:
   name: 阿猛的日常
-  text: 科技改变世界，技术成就未来！
-  tagline: Rspress tagline
+  text: I am Ameng!
+  tagline: 科技改变世界，技术成就未来！
   actions:
     - theme: brand
       text: 博客
