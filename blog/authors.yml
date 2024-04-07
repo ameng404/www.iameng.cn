@@ -15,3 +15,9 @@ slorber:
   title: Docusaurus maintainer
   url: https://sebastienlorber.com
   image_url: https://github.com/slorber.png
+
+ameng:
+  name: 阿猛
+  title: 科技改变世界，技术成就未来！
+  url: https://github.com/ameng404
+  image_url: /img/avatar.jpeg
