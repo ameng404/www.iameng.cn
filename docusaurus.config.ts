@@ -80,10 +80,10 @@ const config: Config = {
         {
           type: "doc",
           docId: "intro",
-          position: "left",
+          position: "right",
           label: "文档",
         },
-        { to: "/blog", label: "博客", position: "left" },
+        { to: "/blog", label: "博客", position: "right" },
         { to: "/about", label: "关于", position: "right" },
         {
           href: "https://github.com/ameng404",
@@ -148,13 +148,17 @@ const config: Config = {
         {
           title: "更多",
           items: [
-            {
-              label: "博客",
-              to: "/blog",
-            },
+            { label: "导航", position: "right", to: "resources" },
             {
               label: "GitHub",
               href: "https://github.com/ameng404",
+            },
+            {
+              html: `
+                <a href="https://docusaurus.io/zh-CN/" target="_blank" rel="noreferrer noopener">
+                  <img src="/img/buildwith.png" alt="build with docusaurus" width="120" height="50"/>
+                <a/>
+                `,
             },
           ],
         },

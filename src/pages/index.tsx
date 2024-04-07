@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link className="button button--secondary" to="/docs/intro">
             爱前端
           </Link>
-          <Link className="button button--secondary" to="/docs/intro">
+          <Link className="button button--secondary" to="/blog">
             爱生活
           </Link>
           <Link className="button button--secondary" to="/docs/intro">
