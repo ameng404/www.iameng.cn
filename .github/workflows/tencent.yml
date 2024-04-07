@@ -21,7 +21,7 @@ jobs:
           node-version: "20.x"
 
       - name: Build project
-        run: yarn install && yarn build
+        run: yarn && yarn build
 
       - name: Upload COS
         uses: TencentCloud/cos-action@v1
@@ -30,6 +30,6 @@ jobs:
           secret_key: ${{ secrets.SECRET_KEY }}
           cos_bucket: ${{ secrets.BUCKET }}
           cos_region: ap-shanghai
-          local_path: doc_build
+          local_path: build
           remote_path: /
           clean: true
