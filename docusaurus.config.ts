@@ -147,7 +147,7 @@ const config: Config = {
         {
           title: "更多",
           items: [
-            { label: "导航", position: "right", to: "resources" },
+            { label: "博客", position: "right", to: "blog" },
             {
               label: "GitHub",
               href: "https://github.com/ameng404",

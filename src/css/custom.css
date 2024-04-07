@@ -24,11 +24,7 @@
 }
 
 .__docusaurus_skipToContent_fallback {
-  height: calc(100vh - --ifm-navbar-height);
-}
-
-html[data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
+  height: calc(100vh - 3.75rem);
 }
 
 .navbar__logo > img{
