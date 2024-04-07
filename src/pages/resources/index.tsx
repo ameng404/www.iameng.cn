@@ -8,7 +8,6 @@ import {
 } from "@docusaurus/theme-common";
 import Layout from "@theme/Layout";
 import ResourceCard from "./ResourceCard";
-import BackToTopButton from "@theme/BackToTopButton";
 import { resourceData } from "@site/data/resources";
 import styles from "./resource.module.css";
 
@@ -95,7 +94,6 @@ export default function Resources() {
             </main>
           </div>
         </div>
-        <BackToTopButton />
       </Layout>
     </HtmlClassNameProvider>
   );
