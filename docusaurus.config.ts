@@ -71,7 +71,7 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "Ameng",
+      title: "阿猛的日常",
       logo: {
         alt: "阿猛的博客",
         src: "img/logo.jpeg",
