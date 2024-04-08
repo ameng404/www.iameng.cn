@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Create a Document
+# Linux 常用命令总结
 
 Documents are **groups of pages** connected through:
 
