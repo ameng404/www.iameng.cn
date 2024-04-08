@@ -20,7 +20,11 @@ export default function HomepageHeader() {
           <Link className="button button--secondary" to="/blog">
             爱生活
           </Link>
-          <Link className="button button--secondary" to="/docs/intro">
+          <Link
+            className="button button--secondary"
+            href="https://photo.iameng.cn"
+            target="_blank"
+          >
             爱摄影
           </Link>
         </div>
