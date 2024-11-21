@@ -1,7 +1,7 @@
 ---
 slug: long-blog-post
 title: Long Blog Post
-authors: 阿猛
+authors: ameng404
 tags: [hello, docusaurus]
 ---
 

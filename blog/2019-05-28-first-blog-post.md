@@ -2,7 +2,7 @@
 slug: first-blog-post
 title: First Blog Post
 authors:
-  name: 阿猛
+  name: ameng404
   title: Docusaurus Core Team
   url: https://github.com/ameng404
   image_url: https://avatars.githubusercontent.com/u/30483876?v=4
